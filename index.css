@@ -8,9 +8,20 @@ h1{
 	text-align: center;
 	font-size: 40px;
 	font-family: OLD ENGLISH;
+}*/
+
+
+
+
+body{
+  background-color: red;
+  
 }
 
-*/.boton1{
+
+
+
+.boton1{
       text-decoration: none;
        padding: 20px 54px;
        display: inline-block;
