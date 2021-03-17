@@ -1,132 +1,136 @@
 *{
-  padding: 0;
-  margin 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing:border-box;
+  padding:0;
+  margin:0;
 }
 
+#contenedor{
+  width: 1200px;
+  height: 1000px;
+  background: #E1E108;
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+
+#header{
+  text-align: center;
+  height: 20%;
+  background: #E19908;
+  border-radius: 1em;
+  margin: 1em;
+}
+#nav{
+  height: 9%;
+  background:#086EE1;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+#contenido{
+  height: 53%;
+  background: #50E108;
+  margin: 1em;
+}
+
+
+#footer{
+  height: 12%;
+  background:#08E1DA;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+#section{
+  height: 95%;
+  width: 71%;
+  background: #C50FF7;
+  border-radius: 1em;
+  float:left;
+  margin: 0.5em;
+}
+
+#aside{
+  height: 95%;
+  width: 25%;
+  background:#C50FF7;
+  border-radius: 1em;
+  float: right;
+  margin: 0.5em;
+}
+
+.articulo{
+  width:96%;
+height: 20%;
+background: #0FF70F;
+margin: 1em;
+border-radius: 1em;
+}
 
 body{
-  background-color:#4242BB;
-  font-family: monserrat;
+  background-image: url(hola.jpg);
+  background-repeat: no-repeat;
+  background-size:150% 500%;
+  background-position:center;
+  box-sizing: border-box;
+  font-family: Lalytta;
 }
 
 
-nav{
-  background: #0C5B54;
-  height: 80px;
-  width: 100%;
-}
 
-label.logo{
-  color:yellow;
-  font: 35px;
-  line-height: 80px;
-  padding:  0 100px;
-  font-weight: bold;
-}
-
-nav ul{
-  float: right;
-  margin-right:20px;
-}
-
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
+.menu-bar{
+  background:rgb(0,100,0);
   text-transform: uppercase;
+  width: auto;
+  height:65%;
 }
 
 
-a.active,a:hover{
-  background: #1b9bff;
-  transition:.5s;
+.menu-bar ul{
+  display: inline-flex;
+  color:#fff;
+  margin: 0px 19px;
+  text-align: center;
+}
+
+
+.menu-bar ul li{
+      width: auto;
+      margin: auto;
+      padding: 20px;
 }
 
 
 
+.menu-bar ul li a{
+  text-decoration: none;
+  color: black;
+}
 
-.checkbtn{
-  font-size: 30px;
+
+
+.active, .menu-bar ul li:hover{
+  background: #0FF0F7;
+  border-radius: 4px;
+  border: none;
   color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-
-#check{
-  display: none;
+.fa fa-home{
+  text-align: left;
 }
-
-@media (max-width: 952px){
-  label.logo{
-    font-size:30px;
-    padding-left: 50px;
-  }
-  nav ul li a{
-    font-size: 16px;
-  }
+.menu-bar .fa{
+  margin-right:1px;
 }
-
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
-
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s; 
-  }
-
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-
-  #check:checked ~ ul{
-    left: 0;
-  }
-
-  section{
-    background-image: url(descarga.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-  }
-}
-
-
-
-h1{
+/*h1{
 	font-size: 40px;
 	text-align: center;
   color:#03E2CA;
-}
+}*/
 
 /*p{
 	text-align: center;
@@ -146,7 +150,7 @@ img{
   display: block;
   margin: auto;
 }
-s
+
 .menu{
     background-color:#000;
 }
@@ -174,21 +178,6 @@ s
 #menu ul li a:hover{
    background-color: #42B881;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .boton1{
       text-decoration: none;
        padding: 20px 54px;
@@ -253,8 +242,12 @@ s
   }
 
   marquee{
-  	font-size: 50px;
-  	color: yellow;
-    background-color: red;
+   color: white;
+   font-size: 60px;
+   font-weight:200;
+   letter-spacing:8px;
+   margin-bottom: 20px;
+   background: red;
 
-  }
+
+ }
