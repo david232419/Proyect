@@ -1,0 +1,59 @@
+#nav{
+  height: 7%;
+  background:#086EE1;
+  border-radius: 1em;
+  margin: 1em;
+  text-align: center;
+  font-size: 16;
+}
+
+.menu-bar{
+/*background:rgb(0,100,0);*/
+  font-size: 12;
+  text-transform:uppercase;
+  width: auto;
+  height:65%;
+  text-align:  center;
+}
+
+
+.menu-bar ul{
+  display: inline-block;
+
+}
+
+
+.menu-bar ul li{
+      width: auto;
+      margin: auto;
+      padding: 20px;
+}
+
+
+
+.menu-bar ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.active, .menu-bar ul li:hover{
+  background: #0FF0F7;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.fa fa-home{
+  text-align: left;
+}
+.menu-bar .fa{
+  margin-right:1px;
+}
